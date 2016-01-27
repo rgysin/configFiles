@@ -2,5 +2,5 @@
 Configuration files for program
 
 # Running
-Enter configFiles directory
-run `./link_files`
+* Enter configFiles directory
+* run `./link_files`
