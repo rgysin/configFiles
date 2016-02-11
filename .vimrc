@@ -5,7 +5,7 @@ set number
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
-set expandtab
+set noexpandtab
 set colorcolumn=80
 autocmd FileType make set noexpandtab
 filetype plugin on
