@@ -1,6 +1,9 @@
 # Load in the git branch prompt script.
 source ~/.git-prompt.sh
 
+# For EECS 482 project 4
+export FS_CRYPT='AES'
+
 function md {
 	mkdir $1
 	cd $1
@@ -13,10 +16,7 @@ function __git_prompt {
 }
 
 # Prompt
-PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[01;34m\] \W\[\033[01;31m\]\$(__git_prompt) \[\033[01;34m\]\$\[\033[00m\] "
-
-# Vi mode
-set -o vi
+PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;31m\]\$(__git_prompt)\n\[\033[01;34m\]\$\[\033[00m\] "
 
 # Aliases
 alias upgrade="sudo apt-get update && sudo apt-get upgrade"
