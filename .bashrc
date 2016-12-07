@@ -19,7 +19,7 @@ function __git_prompt {
 PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;31m\]\$(__git_prompt)\n\[\033[01;34m\]\$\[\033[00m\] "
 
 # Aliases
-alias upgrade="sudo apt update && sudo apt upgrade"
+alias upgrade="sudo apt update && sudo apt upgrade && sudo apt autoremove"
 alias gst="git status"
 alias :q="exit"
 alias ..="cd .."
