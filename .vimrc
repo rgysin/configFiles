@@ -11,3 +11,4 @@ autocmd FileType make set noexpandtab
 filetype plugin on
 let g:localvimrc_ask=0
 let g:localvimrc_sandbox=0
+autocmd BufWritePre * :%s/\s\+$//e
