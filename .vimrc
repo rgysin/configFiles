@@ -1,5 +1,5 @@
 colorscheme monokai
-inoremap jk <esc>
+let mapleader="<esc>"
 nnoremap ; :
 set number
 set tabstop=4

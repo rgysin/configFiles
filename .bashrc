@@ -37,6 +37,8 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 alias tmux='tmux -2'
 alias dirs='dirs -v'
 
+xmodmap ~/.xmodmap
+
 export editor='vim'
 
 ### Added by the Heroku Toolbelt
