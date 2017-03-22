@@ -38,6 +38,7 @@ alias tmux='tmux -2'
 alias dirs='dirs -v'
 
 xmodmap ~/.xmodmap
+xmodmap -e 'clear Lock'
 
 export editor='vim'
 
