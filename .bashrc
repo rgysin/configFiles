@@ -1,9 +1,6 @@
 # Load in the git branch prompt script.
 source ~/.git-prompt.sh
 
-# For EECS 482 project 4
-export FS_CRYPT='AES'
-
 function md {
 	mkdir $1
 	cd $1
@@ -41,6 +38,3 @@ xmodmap ~/.xmodmap
 xmodmap -e 'clear Lock'
 
 export editor='vim'
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
