@@ -1,6 +1,6 @@
 FILES=$(ls -A)
 PWD=$(pwd)
-IGNORE="README.md link_files.sh .git"
+IGNORE="README.md link_files.sh .git .gitignore"
 
 for file in ${FILES}
 do
